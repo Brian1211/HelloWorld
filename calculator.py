@@ -32,3 +32,5 @@ for i in range(10):
 cal2 = Calculator([6,7,8,9,10])
 print(cal2.sum())
 print(cal2.avg())
+
+print('Hello')
