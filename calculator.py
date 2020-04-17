@@ -6,18 +6,18 @@ Created on Thu Dec 26 00:52:26 2019
 """
 
 class Calculator:
-    def __init__(self,numberList):
-        self.numberList = numberList
+    def __init__(self,NumberList):
+        self.NumberList = NumberList
         
     def sum(self):
         result = 0
-        for num in self.numberList:
+        for num in self.NumberList:
             result += num
         return result
     
     def avg(self):
         total = self.sum()
-        return total / len(self.numberList)
+        return total / len(self.NumberList)
     
     
     
